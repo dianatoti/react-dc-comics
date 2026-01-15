@@ -10,5 +10,22 @@ img {
 }
 
 body {
-    min-height: 100wh;
+    min-height: 100vh;
+}
+
+nav ul {
+list-style: none;
+gap: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
 }

@@ -1,26 +1,12 @@
-export default function Header() {
-    return (
-        <header>
-          <div>
-            <img src="/dc-logo.png" alt="Logo" />
-          </div>
-          <div>
-            <nav>
-          <ul>
-            <li><a href="">item</a></li>
-            <li><a href="">item</a></li>
-            <li><a href="">item</a></li>
-            <li><a href="">item</a></li>
-            <li><a href="">item</a></li>
-            <li><a href="">item</a></li>
-            <li><a href="">item</a></li>
-            <li><a href="">item</a></li>
-            <li><a href="">item</a></li>
-            <li><a href="">item</a></li>
+import Logo from "./Logo";
+import Navbar from "./Navbar";
 
-          </ul>
-            </nav>
-          </div>
-        </header>
-    )
+
+export default function Header() {
+  return (
+    <header className="flex align-items-center justify-content">
+      <Logo />
+      <Navbar />
+    </header>
+  )
 }
