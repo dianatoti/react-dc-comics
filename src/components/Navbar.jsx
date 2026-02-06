@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
       <nav>
-          <ul className="flex">
+          <ul className="nav-list">
             <li><a href="">CHARACTERS</a></li>
             <li><a href="">COMICS</a></li>
             <li><a href="">MOVIES</a></li>

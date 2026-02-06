@@ -4,9 +4,11 @@ import Navbar from "./Navbar";
 
 export default function Header() {
   return (
-    <header className="flex align-items-center justify-content">
+    <header className="header">
+      <div className="container header-inner">
       <Logo />
       <Navbar />
+      </div>
     </header>
   )
 }
