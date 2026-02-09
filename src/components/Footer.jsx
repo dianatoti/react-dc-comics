@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer>
-            <div className="footer-col flex">
+            <div className="footer-col">
                 <div className="flex-column">
                     <h4>DC COMICS</h4>
                     <ul>
