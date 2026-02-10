@@ -19,8 +19,8 @@ export default function Main() {
                     {comicsList}
                 </div>
 
-                <div className="text-center mt-4">
-                    <button className="btn btn-primary px-5">
+                <div className="text-center mt-5">
+                    <button className="btn-load-more">
                         LOAD MORE
                     </button>
                 </div>
