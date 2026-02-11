@@ -1,4 +1,4 @@
-export default function Footer() {
+export default function Footertop() {
     return (
         <footer>
             <div className="footer-col">
@@ -49,12 +49,6 @@ export default function Footer() {
                     </ul>
                 </div>
             </div>
-
-            <div className="button">
-            <button>SIGN-UP NOW!</button>
-            <h3>FOLLOW US</h3>
-            </div>
-
         </footer>
     );
 }
