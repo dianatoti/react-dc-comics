@@ -1,5 +1,4 @@
-⁄*RESET*/
-* {
+⁄*RESET*/ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -38,11 +37,11 @@ body {
 }
 
 .nav-list {
-display: flex;
-gap: 20px;
-list-style: none;
-margin: 0;
-padding: 0;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .flex {
@@ -63,7 +62,7 @@ padding: 0;
     height: 350px;
     position: relative;
     overflow: visible;
-z-index: 2;
+    z-index: 2;
 }
 
 .jumbotron img {
@@ -74,14 +73,14 @@ z-index: 2;
 }
 
 .series-btn {
-position: absolute;
-bottom: -20px;
-left: 250px;
-background: #0282F9;
-color: white;
-padding: 10px 20px;
-font-weight: bold;
-border: none;
+    position: absolute;
+    bottom: -20px;
+    left: 250px;
+    background: #0282F9;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
 }
 
 /*MAIN*/
@@ -116,6 +115,45 @@ border: none;
     cursor: pointer;
 }
 
+/*MAINBAR*/
+.mainbar {
+    background-color: #0282F9;
+    padding: 35px 0;
+    margin-top: -20px;
+}
+
+.main-list {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.main-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-list img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.main-list span {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
 /*FOOTER*/
 footer {
     padding: 40px 0;
@@ -129,9 +167,10 @@ footer ul li a {
 }
 
 .footer-col {
-display: flex;
-gap: 90px;
+    display: flex;
+    gap: 90px;
 }
+
 .flex-column {
     flex-direction: column;
 }
